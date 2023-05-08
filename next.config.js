@@ -5,4 +5,4 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = withImages();
+module.exports = nextConfig;

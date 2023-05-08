@@ -7,7 +7,7 @@ const Header = () => {
       <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h1>
       <div className="headerImg">
         <Image
-            src={'/CFJC-Kamloops-spring2.jpg'} alt='kamloops'
+            src={'/myImage2.jpg'} alt='kamloops'
             fill sizes='100vw' priority
             style={{objectFit:"cover"}}
         />
