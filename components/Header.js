@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from "next/image";
-import {bgImg} from '../public/CFJC-Kamloops-spring2.jpg';
 
 const Header = () => {
   return (
@@ -8,8 +7,8 @@ const Header = () => {
       <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h1>
       <div className="headerImg">
         <Image
-            src={bgImg} alt='kamloops'
-            fill sizes='100vw'
+            src={'/CFJC-Kamloops-spring2.jpg'} alt='kamloops'
+            fill sizes='100vw' priority
             style={{objectFit:"cover"}}
         />
         <div className='headerText'>
