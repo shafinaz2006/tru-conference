@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from "next/image";
+import bgImg from '../public/myImage2.jpg';
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h1>
       <div className="headerImg">
         <Image
-            src={'/myImage2.jpg'} alt='kamloops'
+            src={bgImg} alt='kamloops'
             fill sizes='100vw' priority
             style={{objectFit:"cover"}}
         />
