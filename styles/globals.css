@@ -60,20 +60,18 @@ footer {
   margin: 2rem 0 0.5rem 0;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
 }
 main {
   margin: 0 0.5rem;
   padding-bottom: 3rem;
 }
 header {
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
 }
 .headerImg {
   height: 40vh;
-  background-image: url('/CFJC-Kamloops-spring2.jpg');
-  background-position: center;
-  object-fit: cover;
   position: relative;
 }
 .headerText {
@@ -91,16 +89,17 @@ header {
   padding: 0.5rem;
   line-height: 1.5rem;
 }
-nav ul {
+
+nav {
   display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 1.5rem 0 0.25rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .navLink {
   font-size: 1.25rem;
   color: #b8860b;
   text-decoration: underline;
+  padding: 0.5rem;
 }
 .navLink:hover{
   color: #b2132e;
@@ -111,6 +110,9 @@ nav ul {
     width: 80vw;
     margin-left: 10vw;
   }
+  header {
+    margin: 2rem 0 0 0;
+  }
   h1 {
     margin: 2rem;
   }
@@ -120,6 +122,7 @@ nav ul {
   }
   .navLink {
     font-size: 1.5rem;
+    padding: 1rem;
   }
 }
 
