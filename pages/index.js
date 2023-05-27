@@ -3,23 +3,22 @@ export default function Home() {
   return (
     <main>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        This conference aims to share the most recent developments in statistics and data
+        science with applications in biology, genetics, public health, and finance. Invited
+        speakers consist of highly established, mid-range and early-career researchers
+        from academia in Canada.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Students are encouraged to present their work during the poster session 5:15 pm
+        - 8:15 pm on August 23.
       </p>
       <h2>Organizers and Sponsers</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor <a href='https://www.tru.ca/'>Thomson Rivers University </a> velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, <a href='https://faculty.tru.ca/jtomal/'>Dr. Jabed Tomal </a>sunt in culpa qui officia deserunt mollit anim id est laborum.
+        This conference is being organized by <a href='https://faculty.tru.ca/jtomal/' target='_blank'>Dr. Jabed Tomal </a> 
+        <a href='https://www.tru.ca/' target='_blank'>(Thomson Rivers University) </a> and Dr. Erfanul Hoque 
+        <a href='https://www.tru.ca/' target='_blank'>(Thomson Rivers University)</a>. The organizers are
+        grateful for support from Thompson Rivers University and the Pacific Institute of
+        Mathematical Sciences.
       </p>
     </main>
   )

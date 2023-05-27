@@ -5,7 +5,7 @@ import bgImg from '../public/myImage2.jpg';
 const Header = () => {
   return (
     <header>
-      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h1>
+      <h1>Conference in Statistics and Data Science with Applications in Biology, Genetics, Public Health, and Finance</h1>
       <div className="headerImg">
         <Image
             src={bgImg} alt='kamloops'
@@ -13,7 +13,7 @@ const Header = () => {
             style={{objectFit:"cover"}}
         />
         <div className='headerText'>
-          <p>July 20 - 23, 2023</p>
+          <p>August 23 - 24, 2023</p>
           <p>Thomson Rivers University, Kamloops, BC</p>
         </div>
       </div>
