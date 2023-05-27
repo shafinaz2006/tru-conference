@@ -13,6 +13,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -28,32 +29,38 @@ body {
   width: 100%;
   min-height: 100vh;
   color: #454545;
-  background-color: rgba(255,255,240, 0.5);
+  background-color: rgba(255, 255, 240, 0.5);
 }
 
 h1 {
   text-align: center;
   margin: 1rem;
 }
+
 h2 {
   text-align: center;
   margin: 0.75rem;
 }
+
 h3 {
   text-align: center;
   margin: 2rem;
 }
+
 .comingSoon {
   margin: 4rem;
 }
+
 a {
   text-decoration: none;
 }
+
 p {
   line-height: 1.25rem;
   padding: 1rem;
   text-align: justify;
 }
+
 footer {
   font-size: 0.75rem;
   text-align: center;
@@ -63,17 +70,21 @@ footer {
   width: 80%;
   margin-left: 10%;
 }
+
 main {
   margin: 0 0.5rem;
   padding-bottom: 3rem;
 }
+
 header {
   margin: 2rem 0 0 0;
 }
+
 .headerImg {
   height: 40vh;
   position: relative;
 }
+
 .headerText {
   position: absolute;
   bottom: 0;
@@ -95,19 +106,23 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .navLink {
   font-size: 1.25rem;
   color: #b8860b;
   text-decoration: underline;
   padding: 0.5rem;
 }
-.navLink:hover{
+
+.navLink:hover {
   color: #b2132e;
 }
+
 .googleMapDiv {
   position: relative;
   padding-bottom: 50%;
 }
+
 .googleMapFrame {
   position: absolute;
   height: 100%;
@@ -115,22 +130,39 @@ nav {
   top: 0;
   left: 0;
 }
+.orgInfo {
+  margin: 1rem 0;
+  text-align: center;
+}
+.orgInfo p {
+  padding: 0.25rem;
+  text-align: center;
+}
+.orgInfo p:nth-of-type(1){
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
 
 @media only screen and (min-width: 600px) {
   body {
     width: 80vw;
     margin-left: 10vw;
   }
+
   header {
     margin: 2rem 0 0 0;
   }
+
   h1 {
     margin: 2rem;
   }
+
   main {
     margin: 0 1.5rem;
     padding-bottom: 3rem;
   }
+
   .navLink {
     font-size: 1.5rem;
     padding: 1rem;
@@ -142,9 +174,11 @@ nav {
     width: 70vw;
     margin-left: 15vw;
   }
+
   h1 {
     margin: 2rem;
   }
+
   main {
     margin: 0 2rem;
   }
