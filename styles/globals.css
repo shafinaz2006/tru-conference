@@ -4,6 +4,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --background-color: rgba(255, 255, 240, 0.5);
+  --break-color: #52739e;
+  --talk-color: #813c54;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,7 +32,7 @@ body {
   width: 100%;
   min-height: 100vh;
   color: #454545;
-  background-color: rgba(255, 255, 240, 0.5);
+  background-color: var(--background-color);
 }
 
 h1 {
@@ -142,7 +145,38 @@ nav {
   font-weight: bold;
   font-size: 1.15rem;
 }
+.programDiv {
+  display: flex; flex-direction: column;
+  align-items: flex-start;
+}
+.programTime {
+  width: 50%;
+}
+.programInfo {
+  width: 100%;
+}
+.programBreak p:nth-of-type(1){
+  color: var(--break-color);
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px #d0d0d0;
+}
 
+.programBreak p:nth-of-type(2){
+  padding-top: 0;
+}
+.programTalk p:nth-of-type(1){
+  color: var(--talk-color);
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  text-shadow: 1px 1px 2px #d0d0d0;
+  text-align: left;
+}
+.programTalk p:nth-of-type(2){
+  font-style: italic;
+  padding-top: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
 
 @media only screen and (min-width: 600px) {
   body {
@@ -166,6 +200,19 @@ nav {
   .navLink {
     font-size: 1.5rem;
     padding: 1rem;
+  }
+  .googleMapDiv {
+    margin-top: 1rem;
+  }
+  .programDiv {
+    display: flex; flex-direction: row;
+    align-items: flex-start;
+  }
+  .programTime {
+    width: 15%;
+  }
+  .programInfo {
+    width: 85%;
   }
 }
 

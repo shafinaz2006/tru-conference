@@ -16,7 +16,7 @@ export default function Home() {
       <p>
         This conference is being organized by <a href='https://faculty.tru.ca/jtomal/' target='_blank'>Dr. Jabed Tomal </a> 
         <a href='https://www.tru.ca/' target='_blank'>(Thomson Rivers University) </a> and Dr. Erfanul Hoque 
-        <a href='https://www.tru.ca/' target='_blank'>(Thomson Rivers University)</a>. The organizers are
+        <a href='https://www.tru.ca/' target='_blank'> (Thomson Rivers University)</a>. The organizers are
         grateful for support from Thompson Rivers University and the Pacific Institute of
         Mathematical Sciences.
       </p>

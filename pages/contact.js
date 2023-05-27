@@ -4,15 +4,15 @@ const Contact = () => {
       <h2>Organizers Contact Info</h2>
       <div className='orgInfo'>
         <p>Dr. Jabed Tomal</p>
-        <p>Department of Mathematics and Statistics, Thompson Rivers University</p>
+        <p>Department of Mathmatics and Statistics, Thompson Rivers University</p>
         <p> Email: jtomal@tru.ca </p>
         <p>Phone # 250-828-5210</p>
       </div>
       <div className='orgInfo'>
         <p>Dr. Erfanul Hoque</p>
-        <p>Department of Mathematics and Statistics, Thompson Rivers University</p>
+        <p>Department of Mathmatics and Statistics, Thompson Rivers University</p>
         <p> Email: mhoque@tru.ca </p>
-        <p>Phone # 250-828-5210</p>
+        <p>Phone # 250-852-7197</p>
       </div>
     </main>
   )
