@@ -8,9 +8,17 @@ const Program = () => {
     <main>
       <h2>Conference Program</h2>
       <p style={{textAlign: 'center'}}>Each talk will be 30 minutes long followed by 10 minutes of Q&A.</p>
-      <h3>August 23, 2023</h3>
+      <div className='programDate'>
+        <div className="date1"></div>
+        <h3>August 23, 2023</h3>
+        <div className="date1"></div>
+      </div>
       <ProgramDetails programData={programData1} />
-      <h3>August 24, 2023</h3>
+      <div className='programDate'>
+        <div className="date1"></div>
+        <h3>August 24, 2023</h3>
+        <div className="date1"></div>
+      </div>
       <ProgramDetails programData={programData2} />
     </main>
   )

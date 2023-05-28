@@ -180,6 +180,16 @@ nav {
   font-weight: bold;
   line-height: 1.65rem;
 }
+.programDate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date1{
+  height: 1px;
+  background-color: black;
+  width: 30%;
+}
 
 @media only screen and (min-width: 600px) {
   body {
