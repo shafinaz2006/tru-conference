@@ -9,10 +9,10 @@ export default function Home() {
         from academia in Canada.
       </p>
       <p>
-        Students are encouraged to present their work during the poster session 5:15 pm
-        - 8:15 pm on August 23.
+        Students are encouraged to attend the talks by the invited speakers and participate in the poster session the poster session during 5:15 pm
+        - 8:15 pm on August 23, 2023.
       </p>
-      <h2>Organizers and Sponsers</h2>
+      <h2>Organizers and Sponsors</h2>
       <p>
         This conference is being organized by <a href='https://faculty.tru.ca/jtomal/' target='_blank'>Dr. Jabed Tomal </a> 
         <a href='https://www.tru.ca/' target='_blank'>(Thomson Rivers University) </a> and Dr. Erfanul Hoque 
