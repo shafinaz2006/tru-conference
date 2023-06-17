@@ -1,3 +1,6 @@
+import Image from "next/image";
+import pims from '../public/PIMS.png';
+import logo from '../public/TRUlogo.png';
 
 export default function Home() {
   return (
@@ -20,6 +23,19 @@ export default function Home() {
         grateful for support from Thompson Rivers University and the Pacific Institute of
         Mathematical Sciences.
       </p>
+      <div className="sponsorLogo">
+        <Image
+          src={logo} alt='kamloops'
+          width={200} height={200} priority
+          style={{objectFit:"contain"}}
+        />
+        <Image
+          src={pims} alt='kamloops'
+          width={200} height={200} priority
+          style={{objectFit:"contain"}}
+        />
+        
+      </div>
     </main>
   )
 }

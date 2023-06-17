@@ -79,7 +79,7 @@ export const programData2 = [
     type: 'talk',
     time: '4.30 pm',
     heading: 'A short journey through remote sensing, high-dimensional data, and environmental sciences',
-    name: 'Max Turgeon, Assistant Professor, Departments of Statistics and Computer Science, University of Manitoba',
+    name: 'Max Turgeon, Data scientist, Tesera Systems and Adjunct professor, Department of Statistics, University of Manitoba',
     abstract: 'Recent technological advances have led to a plethora of new complex, high-dimensional datasets. These complex datasets open the door to new applications, but they also come with statistical and computational challenges. In this talk, we will focus on how remote sensing is used in environmental sciences. Specifically, we will look at how satellite-based hyperspectral imagery, LiDAR and radar can be used to manage forested areas, to track the impact of drought and wild fires, and to monitor ecosystems. Our main case study is the use of functional data analysis and temporal hyperspectral imagery to identify tree species in Northwestern Ontario. Throughout the talk, we will also discuss the availability of open-access remote sensing data, so that members of the audience can start exploring this exciting area of application.'
   },
 ]
