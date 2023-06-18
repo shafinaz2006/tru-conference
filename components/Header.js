@@ -18,7 +18,7 @@ const Header = () => {
         />
         <div className='headerText'>
           <p>August 23 - 24, 2023</p>
-          <p>Thomson Rivers University, Kamloops, BC</p>
+          <p>Thompson Rivers University, Kamloops, BC</p>
         </div>
       </div>
       <nav>
