@@ -1,6 +1,7 @@
 import Image from "next/image";
 import pims from '../public/PIMS.png';
-import logo from '../public/TRUlogo.png';
+import logo from '../public/TRU_science.png';
+import canc from '../public/CANSSI_Logo.jpg';
 
 export default function Home() {
   return (
@@ -20,17 +21,22 @@ export default function Home() {
         This conference is being organized by <a href='https://faculty.tru.ca/jtomal/' target='_blank'>Dr. Jabed Tomal </a> 
         <a href='https://www.tru.ca/' target='_blank'>(Thompson Rivers University) </a> and Dr. Erfanul Hoque 
         <a href='https://www.tru.ca/' target='_blank'> (Thompson Rivers University)</a>. The organizers are
-        grateful for support from Thompson Rivers University and the Pacific Institute of
-        Mathematical Sciences.
+        grateful for support from the Faculty of Science, Thompson Rivers University, the Pacific Institute of
+        Mathematical Sciences (PIMS), and The Canadian Statistical Sciences Institute (CANSSI).
       </p>
       <div className="sponsorLogo">
         <Image
           src={logo} alt='kamloops'
-          width={200} height={200} priority
+          width={350} height={350} priority
           style={{objectFit:"contain"}}
         />
         <Image
           src={pims} alt='kamloops'
+          width={350} height={350} priority
+          style={{objectFit:"contain"}}
+        />
+        <Image
+          src={canc} alt='kamloops'
           width={200} height={200} priority
           style={{objectFit:"contain"}}
         />

@@ -9,7 +9,7 @@ const Header = () => {
   
   return (
     <header>
-      <h1>Conference in Statistics and Data Science with Applications in Biology, Genetics, Public Health, and Finance</h1>
+      <h1 className='pageHeading'>Conference in Statistics and Data Science with Applications in Biology, Genetics, Public Health, and Finance</h1>
       <div className="headerImg">
         <Image
             src={bgImg} alt='kamloops'

@@ -2,11 +2,11 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-  --background-color: rgba(255, 255, 240, 0.5);
-  --break-color: #52739e;
-  --talk-color: #813c54;
+  --background-start-rgb: rgb(255, 255, 255);
+  --background-end-rgb: rgb(255, 255, 255);
+  --background-color: rgb(255, 255, 255);
+  --tru-teal: #00b0b9;
+  --tru-blue: #003e51;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +22,6 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-
 }
 
 body {
@@ -31,23 +30,23 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  color: #454545;
+  color: var(--tru-blue);
   background-color: var(--background-color);
 }
 
 h1 {
-  text-align: center;
   margin: 1rem;
+  margin-left: 0;
 }
 
 h2 {
-  text-align: center;
   margin: 0.75rem;
+  margin-left: 0;
 }
 
 h3 {
-  text-align: center;
   margin: 2rem;
+  margin-left: 0;
 }
 
 .comingSoon {
@@ -55,13 +54,14 @@ h3 {
 }
 
 a {
-  text-decoration: none;
+  all: unset;
+  cursor: pointer;
 }
 
 p {
   line-height: 1.25rem;
   padding: 1rem;
-  text-align: justify;
+  padding-left: 0;
 }
 
 footer {
@@ -70,7 +70,7 @@ footer {
   margin: 2rem 0 0.5rem 0;
   position: absolute;
   bottom: 0;
-  width: 80%;
+  width: 80%; 
   margin-left: 10%;
   padding-bottom: 0.5rem;
 }
@@ -82,6 +82,10 @@ main {
 
 header {
   margin: 2rem 0 0 0;
+}
+.pageHeading{
+  font-size: 1.75rem;
+  text-align: center;
 }
 
 .headerImg {
@@ -96,7 +100,7 @@ header {
   color: white;
   text-align: right;
   padding: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .headerText p {
@@ -113,16 +117,16 @@ nav {
 
 .navLink {
   font-size: 1.25rem;
-  color: #b8860b;
+  color: var(--tru-blue);
   text-decoration: underline;
   padding: 0.5rem;
 }
 
 .navLink:hover {
-  color: #b2132e;
+  color: var(--tru-teal);
 }
 .navLinkSelected {
-  color: #b2132e;
+  color: var(--tru-teal);
 }
 
 .googleMapDiv {
@@ -137,16 +141,16 @@ nav {
   top: 0;
   left: 0;
 }
+
 .orgInfo {
   margin: 1rem 0;
-  text-align: center;
 }
+
 .orgInfo p {
   padding: 0.25rem;
-  text-align: center;
 }
+
 .orgInfo p:nth-of-type(1){
-  font-weight: bold;
   font-size: 1.15rem;
 }
 .programDiv {
@@ -183,22 +187,27 @@ nav {
   font-size: 1.15rem;
   font-weight: bold;
   line-height: 1.65rem;
+  color: #00b0b9;
 }
 .programDate{
-  display: flex;
+  display: flex; flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+.programDate h3{
+  margin-bottom: 0.5rem;
 }
 .date1{
   height: 1px;
   background-color: black;
-  width: 30%;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 .sponsorLogo{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 @media only screen and (min-width: 600px) {
@@ -225,6 +234,7 @@ nav {
     padding: 1rem;
   }
   .googleMapDiv {
+    width: 100%;
     margin-top: 1rem;
   }
   .programDiv {
@@ -246,6 +256,8 @@ nav {
   .sponsorLogo{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -260,7 +272,7 @@ nav {
   }
 
   main {
-    margin: 0 2rem;
+    margin: 0 2rem 0 0;
   }
   .programTime {
     width: 15%;

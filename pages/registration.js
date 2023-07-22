@@ -3,23 +3,23 @@ import React from "react";
 const Registration = () => {
   return (
     <main>
+      <h3>
+        <span>
+          <a href='https://www.eventbrite.ca/e/tru-conference-in-statistics-and-data-science-tickets-678178057827?aff=oddtdtcreator' 
+          target='_blank' 
+          style={{textDecoration: 'underline'}}>Register on Eventbrite</a>
+        </span>
+      </h3>
       <p>
         Registration fee is $50 for students, $100 for non-student. Registration fee is waived for all
-        invited speakers.
+        invited speakers. Moreover, students who attend the poster session will be qualified for registration fee waiver.
       </p>
       <p>
-        Please click <span>
-        <a href='https://docs.google.com/forms/d/1FRQb-pyaKA-yev2NLCLNb67uJFOou6f-qw6yZNvrrzk/viewform?edit_requested=true' 
+        If you have any difficulties in registration or any questions, please contact <span>
+        <a href='https://www.tru.ca/science/about/contact.html' 
           target='_blank' 
-          style={{textDecoration: 'underline'}}>this link</a> </span>
-        to register for the conference. If you are a student, use <span>
-        <a href='https://docs.google.com/forms/d/1Ber4upmoaTpBvf9diKGWEkGm055HQq-Rw8if2hHXLTg/viewform?edit_requested=true' 
-          target='_blank' style={{textDecoration: 'underline'}}>this link</a> </span>
-        for registration.
-      </p>
-      <p>
-        If you have any difficulties in registration or any question regarding registration, please contact
-        the conference organizers. Thank you for participating in the conference.
+          style={{textDecoration: 'underline'}}>Sarah Aloisio</a></span>
+        , Science Events and Marketing Support Specialist, Thompson Rivers University. Thank you for participating in the conference.
       </p>
     </main>
   )
