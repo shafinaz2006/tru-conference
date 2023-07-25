@@ -3,7 +3,7 @@ const Contact = () => {
     <main className='orgInfoMain'>
       <h2>Organizers Contact Info</h2>
       <div className='orgInfo'>
-        <p><strong>Sarah Aloisio</strong>, Events & Marketing Support Specialist</p>
+        <p><strong>Sarah Aloisio</strong>, Events and Marketing Support Specialist</p>
         <p>Faculty of Science, Thompson Rivers University</p>
         <p> Email: ScienceEvents@tru.ca, Phone # 250.852.6377</p>
       </div>

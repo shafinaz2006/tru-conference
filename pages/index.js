@@ -13,7 +13,7 @@ export default function Home() {
         from academia in Canada.
       </p>
       <p>
-        Students are encouraged to attend the talks by the invited speakers and participate in the poster session during 5:15 pm
+        Students are encouraged to attend the talks by the invited speakers and participate in the poster session from 5:15 pm
         - 8:15 pm on August 23, 2023.
       </p>
       <h2>Organizers and Sponsors</h2>

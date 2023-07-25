@@ -25,7 +25,7 @@ const Header = () => {
         <Link href='/' className={isHome? 'navLinkSelected navLink': 'navLink'}>Home</Link>
         <Link href='registration' className={pathname.includes('registration')? 'navLinkSelected navLink': 'navLink'}>Registration</Link>
         <Link href='program' className={pathname.includes('program')? 'navLinkSelected navLink': 'navLink'}>Program</Link>
-        <Link href='directions' className={pathname.includes('directions')? 'navLinkSelected navLink': 'navLink'}>Directions</Link>
+        <Link href='directions' className={pathname.includes('directions')? 'navLinkSelected navLink': 'navLink'}>Direction</Link>
         <Link href='contact' className={pathname.includes('contact')? 'navLinkSelected navLink': 'navLink'}>Contact</Link>
       </nav>
     </header>
