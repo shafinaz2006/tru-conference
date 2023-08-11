@@ -13,11 +13,8 @@ const Registration = () => {
         invited speakers. Moreover, students who attend the poster session will be qualified for registration fee waiver.
       </p>
       <p>
-        If you have any difficulties in registration or any questions, please contact <span>
-          <a href='https://www.tru.ca/science/about/contact.html'
-            target='_blank'
-            style={{ textDecoration: 'underline' }}>Sarah Aloisio</a></span>
-        , Science Events and Marketing Support Specialist, Thompson Rivers University.
+        If you have any difficulties in registration or any questions, please contact
+          Sarah Aloisio, Science Events and Marketing Support Specialist, Thompson Rivers University at ScienceEvents@tru.ca.
       </p>
       <p> Thank you for participating in the conference.
       </p>
